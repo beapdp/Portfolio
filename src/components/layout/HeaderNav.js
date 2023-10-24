@@ -7,8 +7,8 @@ const HeaderNav = () => {
   return (
     <header className='header'>
         <div className='logo'>
-            <span>V</span>
-            <h3>Beatriz Palomo del Pozo</h3>
+        <img src="/images/chicaPc.png" alt="Descripción de la imagen" />
+            <h3>Beatriz Palomo del POzo</h3>
         </div>
         <nav>
             <ul>

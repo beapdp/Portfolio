@@ -1,20 +1,21 @@
-import React from 'react'
+import React from 'react';
 
 const Contacto = () => {
   return (
-    <div>
+    <div className='contact-container'>
       <h1 className='heading'>Contacto</h1>
-
-      <form className='contact' action='mailto:bea.palomo.delpozo@gmail.com'>
-        <input type='text' placeholder='Nombre'></input>
-        <input type='text' placeholder='Apellidos'></input>
-        <input type='text' placeholder='Email'></input>
-        <textarea placeholder='Motivo de contacto'></textarea>
-        <input type='submit' placeholder='Enviar'></input>
-
-      </form>
+      <div className='form-container'>
+        <form className='contact' action='mailto:bea.palomo.delpozo@gmail.com' method='post' enctype='text/plain'>
+          <input type='text' placeholder='Nombre' name='nombre' required></input>
+          <input type='text' placeholder='Apellidos' name='apellidos' required></input>
+          <input type='email' placeholder='Email' name='email' required></input>
+          <textarea placeholder='Motivo de contacto' name='motivo' required></textarea>
+          <input type='submit' value='Enviar'></input>
+        </form>
+      <img src='/images/chicaForm.png'/>
+      </div>
     </div>
   )
 }
 
-export default Contacto
+export default Contacto;
