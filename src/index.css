@@ -80,7 +80,7 @@ code {
 
 .header .active,
 .header a:hover{
-  color: brown;
+  color: rgb(165, 42, 101);
 
 }
 
@@ -98,6 +98,7 @@ code {
   border-top: 3px solid black;
   color: #444;
 }
+
 
 .home h1{
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -125,7 +126,11 @@ code {
   transition: all 300ms;
 }
 
-.page .heading,
+.lasts-works{
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
 .home .heading{
   font-size: 40px;
   font-weight: 500px;
@@ -133,9 +138,15 @@ code {
   color: black;
 }
 
-.page .heading{
+.heading{
   font-size: 55px;
   font-weight: bold;
+  font-style: italic;
+  color: #444;
+}
+
+.page .heading{
+  text-align: center;
 }
 
 .home p{
@@ -225,6 +236,7 @@ button:hover{
 
 .work-item {
   flex-basis: 30%;
+  padding: 20px;
   transition: transform 0.3s ease-in-out; /* Añade una transición suave al aplicar transformaciones */
   border: 1px solid #ccc; /* Añade un borde ligero */
   box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.1); /* Añade una sombra sutil */
@@ -263,16 +275,16 @@ button:hover{
 }
 
 .work-item a {
-  color: black;
+  color: rgb(40, 100, 116);
   text-decoration: none;
   transition: color 0.3s ease-in-out; /* Añade una transición suave al cambiar el color */
 }
 
 .work-item a:hover {
-  color: #d87728; /* Cambia el color del enlace cuando se pasa el ratón */
+  color: #c960a8; /* Cambia el color del enlace cuando se pasa el ratón */
+  text-transform: scale(2.4)
 }
 
-/* ... */
 
 .work-item h3{
   display: block;
@@ -283,3 +295,13 @@ button:hover{
 
 }
 
+.work-item h4{
+  color: #444;
+  font-weight:500;
+}
+
+
+.lasts-works p a {
+  display: inline-block;
+  margin-top: 10px; /* Ajusta el valor según tus necesidades */
+}

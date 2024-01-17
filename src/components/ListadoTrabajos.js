@@ -16,6 +16,7 @@ const ListadoTrabajos = () => {
               <span>{trabajo.categorias}</span>
               <h2><Link to={"/proyecto/"+trabajo.id}>{trabajo.nombre}</Link></h2>
               <h3>{trabajo.tecnologías}</h3>
+              <h4>{trabajo.description}</h4>
             </article>
           );
         })

@@ -4,7 +4,7 @@ import ListadoTrabajos from './ListadoTrabajos';
 const Portafolio = () => {
   return (
     <div className='page'>
-      <h1 className='heading'>Portafolio</h1>
+      <h1 className='heading'>Mis proyectos</h1>
      <ListadoTrabajos/> 
     </div>
   )
