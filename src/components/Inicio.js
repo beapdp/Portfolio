@@ -1,5 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../styles/inicio.css'
 
 const Inicio = () => {
   return (
@@ -11,7 +12,7 @@ const Inicio = () => {
       <section className='lasts-works'>
         <h2 className='heading'>¿Encajaría en tu Proyecto?</h2>
         <p>Estoy entusiasmada por encontrar esa oportunidad que me abra las puertas de manera profesional, donde pueda seguir aprendiendo, hacer carrera y aportar mi dedicación y creatividad a tu equipo.
-          <Link to="/contacto"> Contáctame</Link> y exploremos juntos cómo puedo contribuir a tu proyecto.</p>
+          <Link className='contactButton' to="/contacto"> Contáctame</Link> y exploremos juntos cómo puedo contribuir a tu proyecto.</p>
       </section>
     </div>
   )

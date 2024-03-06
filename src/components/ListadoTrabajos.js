@@ -1,5 +1,6 @@
 import React from 'react';
 import { trabajos } from '../data/trabajos';
+import '../styles/listadoTrabajos.css';
 
 const ListadoTrabajos = () => {
   return (

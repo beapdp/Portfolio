@@ -1,76 +1,69 @@
-.home {
-    padding: 20px;
-    font-family: 'Arial', sans-serif;
-    color: #333;
-    background-color: #f0f0f0;
+
+.home h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 400px;
+    font-size: 40px;
+    margin-bottom: 0px;
   }
   
-  .header {
-    margin-bottom: 40px;
-    text-align: center;
+  .home strong{
+    color: #22a1bb
   }
   
-  .title {
-    font-size: 36px;
-    margin: 0 0 10px 0;
+  .home h2{
+    color: grey;
+    font-weight: lighter;
   }
   
-  .highlight {
-    font-weight: bold;
-    color: #2c3e50;
-  }
-  
-  .subtitle {
-    font-size: 24px;
-    margin: 0 0 20px 0;
-    text-align: center;
-  }
-  
-  .link {
-    color: #3498db;
+  .home a{
+    padding: 7px;
+    margin-left: 15px;
+    margin-right: 10px;
+    border-radius: 5px;
+    color: white;
+    background-color: #288cd8;
     text-decoration: none;
+    transition: all 300ms;
+  }
+  
+  .lasts-works{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .home .heading{
+    font-size: 40px;
+    font-weight: 500px;
+    font-style: italic;
+    color: black;
+  }
+  
+  .heading{
+    font-size: 55px;
     font-weight: bold;
-    position: relative;
+    font-style: italic;
+    color: #444;
   }
   
-  .link::after {
-    content: '';
-    position: absolute;
-    width: 0;
-    height: 2px;
-    display: block;
-    margin-top: 5px;
-    right: 0;
-    background: #3498db;
-    transition: width .3s ease;
-  }
-  
-  .link:hover::after {
-    width: 100%;
-    left: 0;
-  }
-  
-  .lasts-works {
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
+  .page .heading{
     text-align: center;
   }
   
-  .heading {
-    font-size: 30px;
-    margin: 0 0 10px 0;
+  .page p{
+    color: #444;
+    margin-bottom: 50px;
+    font-weight: lighter;
+    font-size: large;
+    margin-left: 50px;
+    margin-right: 50px;
   }
-  
-  .description {
-    font-size: 18px;
-    margin: 0 0 20px 0;
+
+  .home p{
+    color: #444;
+    font-weight: lighter;
+    font-size: large;
   }
-  
-  .works {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    /* Añadir más estilos según sea necesario */
-  }
-  
+
+  .contactButton:hover{
+  background-color: rgb(165, 42, 101);
+}
