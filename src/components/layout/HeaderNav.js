@@ -7,8 +7,8 @@ const HeaderNav = () => {
   return (
     <header className='header'>
         <div className='logo'>
-        <img src="/images/chicaPc.png" alt="Descripción de la imagen" />
-            <h3>Beatriz Palomo del POzo</h3>
+            <img src="/images/chicaPc.png" alt="Descripción de la imagen" />
+            <img src="/images/Beapdp.png" alt="Descripción de la imagen" />
         </div>
         <nav>
             <ul>
@@ -17,9 +17,6 @@ const HeaderNav = () => {
                 </li>
                 <li>
                     <NavLink to="/portafolio">Portafolio</NavLink>
-                </li>
-                <li>
-                    <NavLink to="/servicios">Servicios</NavLink>
                 </li>
                 <li>
                     <NavLink to="/curriculum">Currículum</NavLink>

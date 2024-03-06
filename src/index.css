@@ -119,6 +119,7 @@ code {
 .home a{
   padding: 7px;
   margin-left: 15px;
+  margin-right: 10px;
   border-radius: 5px;
   color: white;
   background-color: #288cd8;
@@ -151,6 +152,8 @@ code {
 
 .home p{
   color: #444;
+  font-weight: lighter;
+  font-size: large;
 }
 
 .contact-container{
@@ -281,7 +284,7 @@ button:hover{
 }
 
 .work-item a:hover {
-  color: #c960a8; /* Cambia el color del enlace cuando se pasa el ratón */
+  color: rgb(165, 42, 101);
   text-transform: scale(2.4)
 }
 
