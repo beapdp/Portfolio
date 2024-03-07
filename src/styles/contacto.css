@@ -58,6 +58,11 @@
     background-color: rgb(165, 42, 101);
   }
   
+  @media (max-width: 768px) {
+    .contact-image {
+        display: none;
+    }
+}
   
  
   

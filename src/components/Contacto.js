@@ -32,7 +32,7 @@ const Contacto = () => {
           <textarea placeholder='Motivo de contacto' name='motivo' required></textarea>
           <input className='formButton' type='submit' value='Enviar'></input>
         </form>
-      <img src='/images/chicaForm.png'/>
+      <img className='contact-image' src='/images/chicaForm.png'/>
       </div>
     </div>
   )

@@ -62,21 +62,15 @@
   
   }
   
-  .nav-toggle{
-    display: none;
-    font-size: 30px;
-    cursor: pointer;
-  }
-  
-  .nav-visible {
-    display: block;
-  }
-  
+
   
   @media (max-width: 768px) {
    
     .header li{
-      font-size: 12px;
+      font-size: 14px;
       margin-right: 8px;
+    }
+    .header{
+      
     }
   }
