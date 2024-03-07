@@ -5,6 +5,7 @@
     margin-top: 30px;
     border-bottom: 2px solid black;
     margin-bottom: 35px;
+
   
   }
   
@@ -28,12 +29,21 @@
     text-transform: uppercase;
   }
   
-  .header .nav{
-    flex-grow: 1;
+  .cabecera-menuBoton{
+    border: none;
+    display: none;
+    background-color:transparent;
   }
+
+  .cabecera-svg{
+    width: 3em;
+    height: 3em;
+  }
+
+
   
   
-  .header nav ul{
+  .cabecera-ul{
     height: 132px;
     display: flex;
     justify-content:flex-end;
@@ -65,12 +75,27 @@
 
   
   @media (max-width: 768px) {
+
+    .cabecera-menuBoton{
+      display: flex;
+    }
+
+    .cabecera-nav{
+      display: none;
+    }
+
+    .cabecera-nav.isActive{
+      display: flex;
+    }
+
+    .cabecera-ul{
+      flex-direction: column;
+    }
+
+    .cabecera-li{
+      margin: 2px;
+      margin-bottom: 15px;
+    }
    
-    .header li{
-      font-size: 14px;
-      margin-right: 8px;
-    }
-    .header{
-      
-    }
+    
   }
