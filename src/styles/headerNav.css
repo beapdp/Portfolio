@@ -27,13 +27,14 @@
     height: 3em;
   }
 
+  
 
   
   
   .cabecera-ul{
     display: flex;
     justify-content:flex-end;
-    align-items: center;
+    align-items:baseline;
     list-style: none;
   }
   
@@ -88,14 +89,9 @@
       display: flex;
     }
 
-    
-
-    .cabecera-li{
-      font-size: 8px;
-      
-    }
+  
    .header li{
-    font-size: 8px;
+    font-size: 14px;
    }
     
   }
