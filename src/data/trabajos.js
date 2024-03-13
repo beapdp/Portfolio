@@ -5,7 +5,7 @@ export const trabajos =[
         "url":"www.pequeñetes.com",
         "tecnologías": "WORDPRESS",
         "categorias": "Desarrollo web",
-        "description": "Proyecto desarrollado con wordpress; aún no me había metido de pleno en el mundo del código pero tenía muchas ganas de crear una página, por lo que decidí comenzar mis andaduras a través de este sistema cuyo resultado fue la de juntar dos de mis aficiones, la educación y el desarrollo."
+        "description": "Proyecto desarrollado con wordpress; aún no me había metido de pleno en el mundo del código pero tenía muchas ganas de hacerme un huequito en la web, por lo que decidí comenzar mis andaduras a través de este sistema cuyo resultado fue la de juntar varias de mis aficiones, la educación, el desarrollo, el diseño y... escribir."
     },
     {
         "id":"micocinaweb",
