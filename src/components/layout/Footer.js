@@ -4,7 +4,7 @@ import '../../styles/footer.css';
 const Footer = () => {
   return (
     <footer className='footer'>
-        Portafolio Beatriz Palomo del Pozo &copy; 2023
+        Portafolio Beatriz Palomo del Pozo &copy; 2024
     </footer>
   )
 }
