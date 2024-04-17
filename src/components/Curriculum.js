@@ -7,14 +7,14 @@ const Curriculum = () => {
       
       {/* Vista previa del PDF */}
       <iframe 
-        src={`${process.env.PUBLIC_URL}/CV Beatriz Palomo (2).pdf`} 
+        src={`${process.env.PUBLIC_URL}/CV Beatriz Palomo (3).pdf`} 
         style={{width: '100%', height: '500px', border: 'none'}} 
         title="Vista previa del currículum">
       </iframe>
       
       {/* Enlace de descarga */}
       <div style={{marginTop: '20px'}}>
-        <a href={`${process.env.PUBLIC_URL}/CV Beatriz Palomo (2).pdf`} download="CV-Beatriz-Palomo.pdf" style={{textDecoration: 'none', color: 'blue'}}>
+        <a href={`${process.env.PUBLIC_URL}/CV Beatriz Palomo (3).pdf`} download="CV-Beatriz-Palomo.pdf" style={{textDecoration: 'none', color: 'blue'}}>
           Descárgatelo aquí
         </a>
       </div>
