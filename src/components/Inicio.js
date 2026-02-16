@@ -25,13 +25,13 @@ const Inicio = () => {
           <div className="bg-white/40 backdrop-blur-md p-8 rounded-[2rem] border border-white hover:border-[#e9a9a9]/50 transition-all shadow-xl shadow-slate-200/50">
             <span className="text-3xl mb-4 block">🚀</span>
             <p className="text-slate-600 leading-relaxed italic">
-              "Tras 18 años en educación, aporto una <strong>visión humana y resolutiva</strong> al desarrollo de software."
+              "Tras 18 años en educación, busco esa <strong>primera oportunidad</strong> dentro del mundo del desarrollo, donde poder <strong>formarme</strong> a nivel profesional y dar <strong>lo mejor</strong> de mí."
             </p>
           </div>
           <div className="bg-[#4a4a4a] p-8 rounded-[2rem] text-white shadow-xl shadow-slate-900/10">
             <span className="text-3xl mb-4 block">🎓</span>
             <p className="leading-relaxed opacity-90">
-              Estudiante de <strong>DAM</strong> especializada en el ecosistema Frontend moderno y diseño de interfaces.
+              Estudiante de <strong>DAM</strong> con pasión por el Frontend y diseño de interfaces.
             </p>
           </div>
         </div>

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Curriculum = () => {
-  const skills = ['React', 'Angular', 'JS', 'PHP', 'Java', 'MySQL', 'MongoDB', 'UX', 'UI'];
+  const skills = ['React', 'Angular', 'NEXT', 'JS', 'PHP', 'Java', 'MySQL', 'MongoDB','Odoo','Figma', 'UX', 'UI'];
   const softSkills = ['Adaptabilidad', 'Capacidad Resolutiva', 'Empatía', 'Trabajo en equipo', 'Creatividad'];
 
   const formacion = [

@@ -3,23 +3,23 @@ export const trabajos = [
         "id": "servicios-empresas",
         "nombre": "Business Digital Solutions",
         "url": "web-agencia-six.vercel.app", 
-        "tecnologías": "REACT, TAILWIND",
+        "tecnologías": "NEXT, TAILWIND",
         "categoria": "desarrollo",
-        "description": "Plataforma de servicios digitales diseñada para la transformación digital de pequeñas empresas. Enfoque en arquitectura limpia y escalabilidad."
+        "description": "Plataforma de servicios digitales diseñada para la transformación digital de pequeñas empresas."
     },
     {
         "id": "web-clase-infantil",
         "nombre": "Aula Interactiva Infantil",
         "url": "rinconprofebea.vercel.app",
-        "tecnologías": "ANGULAR, CSS3",
+        "tecnologías": "HTML, CSS, JAVASCRIPT",
         "categoria": "desarrollo",
-        "description": "Recurso educativo multimedia para el aula, centralizando canciones y cuentos interactivos para mejorar la experiencia de aprendizaje en educación infantil."
+        "description": "Recurso educativo multimedia para el aula, centralizando canciones y cuentos interactivos para hacer llegar a las familias."
     },
     {
         "id": "micocinaweb",
         "nombre": "En mi Cocina",
         "url": "en-mi-cocina.vercel.app",
-        "tecnologías": "REACT, CSS3",
+        "tecnologías": "REACT, CSS",
         "categoria": "desarrollo",
         "description": "Gestor de recetas y planificación de menús semanales con funcionalidad de lista de la compra dinámica."
     },
@@ -29,6 +29,6 @@ export const trabajos = [
         "url": "childrens-books-beige.vercel.app/home",
         "tecnologías": "ANGULAR",
         "categoria": "desarrollo",
-        "description": "Catálogo interactivo de literatura infantil con soporte de audio. Proyecto centrado en la gestión de estados con Angular."
+        "description": "Catálogo de literatura infantil. Proyecto centrado en la gestión de estados con Angular, realizado como parte de la práctica de este framework en el Bootcamp."
     }
 ];

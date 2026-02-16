@@ -18,7 +18,7 @@ const Portafolio = () => {
           <h1 className='text-5xl font-black text-[#4a4a4a] mb-4'>Proyectos Seleccionados</h1>
           <p className='text-slate-400 max-w-2xl mx-auto italic'>
             Una muestra de mi evolución técnica y creativa. 
-            Enfocada en código limpio, interfaces intuitivas y soluciones escalables.
+            Desde proyectos hechos como parte de actividad durante mi formación hasta los que hago a nivel personal para seguir practicando.
           </p>
         </header>
 
