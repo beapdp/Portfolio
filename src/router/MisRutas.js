@@ -7,6 +7,7 @@ import Contacto from "../components/Contacto";
 import HeaderNav from '../components/layout/HeaderNav';
 import Footer from '../components/layout/Footer';
 import Project from '../components/Project';
+import BotonWhatsapp from '../components/BotonWhatsapp';
 
 
 const MisRutas = () => {
@@ -26,6 +27,7 @@ const MisRutas = () => {
               <Route path='*' element={<h1 className='heading'>Error 404</h1>}/>
           </Routes>
         </section>
+        <BotonWhatsapp />
         {/*PIE DE PÁGINA*/}
         <Footer/>
     </BrowserRouter>
